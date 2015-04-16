@@ -357,7 +357,6 @@ function MuffinRushAssets() {
     purchasableItem: Soomla.Models.PurchaseWithMarket.create({
       marketItem: Soomla.Models.MarketItem.create({
         productId: NO_ADDS_NONCONS_PRODUCT_ID,
-        consumable: Soomla.Models.MarketItem.Consumable.NONCONSUMABLE,
         price: 1.99
       })
     })
